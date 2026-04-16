@@ -12,5 +12,24 @@ public class Question05_2 {
 
 		// TODO:ここに実装
 
+		int[] numberGroupe = { 3, 5, 7, 9 };
+
+		if (numberGroupe[3] == 3) {
+
+			System.out.println("4番目の人要素値は3です。");
+
+		} else if (numberGroupe[3] == 5) {
+
+			System.out.println("4 番目の要素の値は 5 です。");
+
+		} else if (numberGroupe[3] == 7) {
+			System.out.println("4 番目の要素の値は 7 です。");
+
+		} else {
+			System.out.println("4 番目の要素の値は 3、5、7 以外の値です。 ");
+
+		}
+
 	}
+
 }
